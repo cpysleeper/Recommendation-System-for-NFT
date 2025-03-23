@@ -1,0 +1,1 @@
+This project implements a semantic search system for NFT collections using the multilingual-e5-large-instruct model and dense vector search with FAISS. It enables natural language queries to retrieve the most relevant NFTs based on their descriptions.
