@@ -6,20 +6,19 @@ This project implements a **semantic search system** for NFT collections using t
 
 ## 📁 Project Overview
 
-- **Input:** NFT collection metadata (JSON files)
+- **Input:** NFT collection metadata (JSON files) scraped from Opensea.io by using their API
 - **Output:** Searchable CSV with `document_id`, `title`, and `text`
 - **Model:** SentenceTransformer (E5)
 - **Indexing:** FAISS for top-k dense retrieval
-- **Hardware:** Apple M2 GPU used via PyTorch MPS backend
 
 ---
 
 ## ⚙️ Features
 
+-CSV file extractor is included in the retriever system notebook
 - Multilingual text embedding with E5 model
 - FAISS-based dense retrieval
 - Query-NFT matching with natural language input
-- GPU-accelerated embedding generation on Apple Silicon
 
 ---
 
