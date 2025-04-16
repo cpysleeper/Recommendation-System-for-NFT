@@ -1,6 +1,6 @@
 # 🔍 NFT Retriever System
 
-This project implements a **semantic search system** for NFT collections using the [multilingual-e5-large-instruct](https://huggingface.co/intfloat/multilingual-e5-large-instruct) model and dense vector search with [FAISS](https://github.com/facebookresearch/faiss). It enables natural language queries to retrieve the most relevant NFTs based on their descriptions.
+This project implements a **semantic search system** for NFT collections using the [multilingual-e5-large-instruct](https://huggingface.co/intfloat/multilingual-e5-large-instruct) model and dense vector search with [FAISS](https://github.com/facebookresearch/faiss). It enables natural language queries to retrieve the most relevant NFTs based on their descriptions. [Phi-3.5](https://huggingface.co/microsoft/Phi-3.5-mini-instruct) is used as the reasoning model for the final output after getting the similar tokens.
 
 ---
 
