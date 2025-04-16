@@ -8,7 +8,7 @@ This project implements a **semantic search system** for NFT collections using t
 
 - **Input:** NFT collection metadata (JSON files) scraped from Opensea.io by using their API
 - **Output:** Searchable CSV with `document_id`, `title`, and `text`
-- **Model:** SentenceTransformer (E5)
+- **Model:** SentenceTransformer (E5), LLM(Phi-3.5)
 - **Indexing:** FAISS for top-k dense retrieval
 
 ---
