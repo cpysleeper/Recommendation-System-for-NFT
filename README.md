@@ -19,11 +19,16 @@ This project implements a **semantic search system** for NFT collections using t
 - Multilingual text embedding with E5 model
 - FAISS-based dense retrieval
 - Query-NFT matching with natural language input
-
+- Simple UI created with Gradio 
 ---
 
 ## 🚀 Getting Started
 
-1. **Install dependencies**
+**Install dependencies**
    ```bash
-   pip install sentence-transformers faiss-cpu pandas
+   pip install sentence-transformers faiss-cpu pandas gradio
+```
+
+---
+
+## User Interface Example Usage
