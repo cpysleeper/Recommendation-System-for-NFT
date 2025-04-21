@@ -32,4 +32,4 @@ This project implements a **semantic search system** for NFT collections using t
 ---
 
 ## User Interface Example Usage
-!(images/UI.png)
+![UI](images/UI.png)
